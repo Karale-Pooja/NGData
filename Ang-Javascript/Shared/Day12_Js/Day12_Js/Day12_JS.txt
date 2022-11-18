@@ -1,0 +1,9 @@
+Javascript Objects:
+
+Object is collection of similar entity with having different or same properties and behaviour.
+	e.g. car is an object with having 
+	properties: model, color, average, height, width, price.
+	behaviour: start, stop, speed, break, music systems.
+	
+Objects are non primitive data types/ referenced data types.
+Object is combination of properties and behaviour.

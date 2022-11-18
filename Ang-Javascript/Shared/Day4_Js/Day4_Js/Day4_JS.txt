@@ -1,0 +1,10 @@
+Summary:
+
+1. Arithmatic: +, -, *, /, %, ++, --
+2. Comparision: ==, ===, >,<, !=, <=, >=.
+
+
+3. Logical Operators:
+	Logical AND,
+	Logical OR,
+	Logical NOT.

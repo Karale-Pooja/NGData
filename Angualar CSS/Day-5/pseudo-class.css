@@ -1,0 +1,88 @@
+/* unvisited link */
+a:link {
+    color: red;
+}
+
+/* visited link */
+a:visited {
+    color: green;
+}
+
+/* mouse over link */
+a:hover {
+    color: rgb(165, 124, 231);
+    font-size: 22px;
+}
+
+/* selected link */
+a:active {
+    color: rgb(170, 21, 108);
+}
+
+/* first-child */
+.fc p:first-child {
+    color: red;
+    background-color: pink;
+}
+
+.fc1 p:first-child {
+    color: red;
+    background-color: pink;
+}
+
+/* only first i tag from p tag */
+.fc1 p i:first-child{
+    color: green;
+    background-color: yellow;
+}
+
+/* for all i tag from p tag with the help of :first-child */
+.fc2 p:first-child i{
+    color:black;background-color: orangered;
+}
+/* :nth-child() */
+.nth p:nth-child(2){
+    color: rgb(22, 15, 94);
+    background-color: aquamarine;
+}
+.nth li:nth-child(3){
+    color: brown;
+    background-color: yellow;
+}
+
+/* :last-child */
+.last b:last-child{
+    color: red;
+    background-color: azure;
+}
+/* pseudo-element */
+
+/* ::first-line */
+.ele1 p::first-line{
+    color: red;
+}
+
+/* ::first-letter */
+.ele2 p::first-letter{
+    font-size: xx-large;
+    color: #ff0000;
+}
+.opacity img{
+    opacity: 0.5;
+}
+.opacity img:hover{
+    opacity: 1.0;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+

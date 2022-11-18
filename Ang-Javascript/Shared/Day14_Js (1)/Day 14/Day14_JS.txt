@@ -1,0 +1,3 @@
+Javascript Revision:
+variable hoisting
+JS: JS is synchronous as well as single threaded language.

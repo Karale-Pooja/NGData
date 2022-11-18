@@ -1,0 +1,61 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Dialog Boxes</title>
+    <script>
+        function showAlert1(){
+            console.log("Hello this is an alert");
+            alert("This will show Alert");
+
+            console.log("This is my business logic");
+
+        }
+
+        function showConfirm1(){
+            console.log("This is the confirm event");
+
+            var result = confirm("Your age is greater than 18 ?");
+            console.log(result);
+
+            console.log("This is the code we need to execute if condition is true");
+            if(result== true){
+                console.log("Your age is greater than 18 u can go ahead");
+            }
+            else{
+                console.log("Your age is less than 18 you can not enter");
+                // window.location= "";
+            }
+        }
+
+        function showPrompt2(){
+            // var test1 = 15;
+            console.log("Hello this is prompt");
+            var res =  prompt("Please enter your age");
+            console.log(res);
+            // var result3 = test1 + res;
+            console.log("Executed the prompt");
+            if(res > 21){
+                console.log("Your age is greater than 18 u can go ahead"); 
+            }
+            else{
+                console.log("Your age is less than 18 you can not enter");                
+            }
+        }
+    </script>
+</head>
+<body>
+    <h3>Dialog Boxes</h3>
+    <h4> Alert Box</h4>
+    <button onclick="showAlert1()">Show Alert</button>
+
+    <h4> Confimr Box</h4>
+    <button onclick="showConfirm1()">Show Confimr</button>
+
+    <h4> Prompt Box</h4>
+    <button onclick="showPrompt2()">Show Prompt</button>
+
+</body>
+</html>

@@ -1,0 +1,35 @@
+Javascript Revision on Closure, Call, bind, apply
+
+Advance JS Concepts:
+
+JS History:
+	JS was developed by Brendan Eich in 1995 by Netscape Company.
+	1997: JS became ECMA Script Standard . i.e ES1 has been released.
+	1998 : ES2 has been released.
+	1999: ES3 has been released/ with support on IE browser.
+	2008: ES4 has been released.
+	2009: ES5 has been released.
+	2015: ES6 has been released. This is major release in the hostory of JS.
+	2022: Still we are using ES6.
+	
+Latest version of Javascript is ES6.
+
+	ES6 Features:
+		1. let and const
+		2. Arraow Function
+		3. Multi line String
+		4. Template Literals
+		5. Default Parameter
+		6. Destruting 
+		7. Promises
+		8. Classes
+		9. Modules
+	
+	Variable Hoisting:
+	JS moves variable/ function declaration to the top of the program and 
+	first allocate memory using conxext execution and then start execution program line by line is called as Variable Hoisting.
+	
+	Variable Typing:
+		During runtime we can chnage the data type of variable so this is called as Variable typing.
+		
+		

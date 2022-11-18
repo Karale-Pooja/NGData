@@ -1,0 +1,21 @@
+ES 6 Features Continue...:
+Object Oriented JS:
+
+1. Classes:
+	Class is a blue print of Object. Class consists of properties and functions and constructor.
+	
+2. Inheritance :
+	It is an mechanism where child class inherits/ implements/ access properties of parent class.
+	
+3. Prototypal Inheritance:
+	One object or child object will acces methods and properties of parent objects is called as prototypal inheritance.
+	
+
+Temporal Dead Zone:
+	Let and const always goes in temporal dead zone i.e from when called the varilable until we initilize that variable with some value.
+	var variable will occupy memory in global area so they can be accessed with this or window. But will let and const can not access like that.
+
+use strict :
+	JS is asking for stictness of all the methods and properties.
+	
+	

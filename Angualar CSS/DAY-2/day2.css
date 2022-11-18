@@ -1,0 +1,28 @@
+h1,h3{
+    color: brown;background-color: azure;font-style: italic;
+}
+div{
+    color: blue;
+}
+p{
+    text-align: center;
+    background-color: bisque;
+    color: black;
+}
+  #aa{
+    text-decoration: dashed;
+    background-color: rgb(117, 107, 207);
+}
+.bb{
+    color: rgb(28, 138, 37);
+}
+.ab{
+    color: rebeccapurple;
+}
+.cc{
+    color: red;background-color: rgb(228, 228, 120);
+}
+.dd{
+    font-size: 300%;
+}
+

@@ -1,0 +1,57 @@
+Day-1:
+
+(1) About Software :
+
+(2)HTML5:
+        -Hypertext Markup launguage.
+
+(3) DOM:
+        -Document Object Model
+
+(4)Heading Tags:
+               -Defines Heading of the page.
+               -h1 to h6
+
+Day-2:
+      
+      (1) Tags:
+               -p tag
+               -br tag
+               -hr tag
+
+      (2)HTML Links:        
+                    -anchor tag<a>:syntax :<a href="url"> link text</a>
+                    (1)Absolute URl 
+                    (2)Relative url
+
+ Day-3:
+       (1)Target Attribute:
+       -target="self"
+       -target="blank"
+
+Day-4:
+      -Formating Tags:
+      (1)<strong>
+      (2)<b>
+      (3)<Mark>
+      (4)<i>
+       (5)<em>
+       (6)<small>
+       (7)<ins>
+        (8)<del>
+       (9)<sup>and<sup>
+
+Day-5:
+       -HTML Images: syntax:<img src="url" alt="alternatetext">
+       (1)Image in same folder
+       (2)Image in another folder
+       (3)Image by  Url  
+       -Lists
+      (1)  ol
+      (2) ul
+Day-6:
+      -Table:<table>,<tr>,<th>,<td>
+      -colspan
+      -rowspan
+      
+
