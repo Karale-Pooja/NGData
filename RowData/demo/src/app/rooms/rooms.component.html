@@ -1,0 +1,14 @@
+<h1>Welcome to {{hotelName}} Hotel</h1>
+
+<div [hidden]="hiddenRoom">
+    Number of Rooms:
+    <div [innerText]="numOfRooms"></div>
+</div>
+
+<button (click)="togle()">togle</button>
+<div *ngIf="room.availableRooms >0">Rooms List</div>
+
+<!-- <div>{{roomList | json}} </div> -->
+
+
+<demo-room-list [rooms]="roomList"></demo-room-list>
