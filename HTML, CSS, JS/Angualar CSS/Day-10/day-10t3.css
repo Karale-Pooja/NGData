@@ -1,0 +1,124 @@
+* {
+    /* margin: 0; */
+    /* padding: 0; */
+    box-sizing: border-box;
+}
+
+/* body,
+html {
+    width: 100%;
+    height: 100%;
+} */
+
+#main {
+    height: 500px;
+    width: auto;
+    display: flex;
+    flex-direction: row;
+}
+
+#main .box1 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(109, 247, 109);
+}
+
+#main .box2 {
+    width: 100%;
+    height: 500px;
+    background-color: rgb(72, 48, 184);
+}
+
+#main .box1 h2 {
+    text-align: center;
+    color: white;
+    padding-top:80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main .box1 p {
+    text-align: center;
+    color: white;
+    margin-left: 20%;
+    margin-right: 20%;
+}
+
+#main .box1 button {
+    margin-left: 40%;
+    color: rgb(55, 221, 55);
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border: none;
+
+}
+
+#main .box2 h2 {
+    text-align: center;
+    color: white;
+    padding-top: 80px;
+    margin-left: 10%;
+    margin-right: 10%;
+}
+
+#main .box2 p {
+    text-align: center;
+    color: white;
+
+    margin-left: 20%;
+    margin-right: 20%;
+
+}
+
+#main .box2 button {
+    margin-left: 40%;
+    color: rgb(55, 221, 55);
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border: none;
+}
+
+#main2 {
+    height: 200px;
+    width: auto;
+    background-color: white;
+    text-align: center;
+    padding-top: 50px;
+    
+}
+
+#main2 .p1 h4 {
+    color: rgb(25, 133, 25);
+    padding-top: 0%;
+}
+
+#main2 button {
+    margin-left: 5%;
+    color: white;
+    width: 20%;
+    height: 30px;
+    text-align: center;
+    border: none;
+    background-color: rgb(90, 235, 90);
+}
+@media(max-width:768px){
+    #main{
+        height: auto;
+        width: 100%;
+        flex-direction: column;
+    }
+    .box1{
+        width: auto;
+    }
+    .box2{
+        width: auto;
+    }
+    #main2{
+        width: auto;
+    }
+    
+}
+
+

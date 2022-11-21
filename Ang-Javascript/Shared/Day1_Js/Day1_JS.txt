@@ -1,6 +1,0 @@
-
-Introduction to Web Application
-
-Introduction to the Various Software Technologies
-
-Static Vs Dyanamic Web Application 

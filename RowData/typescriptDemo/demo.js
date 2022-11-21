@@ -1,0 +1,22 @@
+"use strict";
+// using tsc cmd ts convert js
+let fname = 'akash';
+// fname = 10;
+console.log(fname);
+let age;
+age = 20;
+console.log('age', age);
+let isValid = true;
+console.log('isValid', isValid);
+let nameList;
+nameList = ['akash', 'akash2', 'akash3'];
+let numList;
+numList = [1, 2, 3, 4];
+let results = numList.filter(val => val > 2);
+let isExist = numList.find(val => val === 2);
+let sum = numList.reduce((acc, num) => acc + num);
+console.log('filter results', results);
+console.log('find isExist', isExist);
+console.log('reduce isExist', sum);
+let c = 2 /* color.blue */;
+console.log(c);

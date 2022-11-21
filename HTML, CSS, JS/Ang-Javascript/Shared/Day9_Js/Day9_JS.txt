@@ -1,0 +1,70 @@
+
+Javascript Navigation:
+
+	If we want to navigate from one page to another page based on some particular condition then we can use window.location.
+	
+	syntax:
+	window.location = "url";
+	
+	Dialog Boxes:
+		
+		1. Alert
+		2. Confimr
+		3. Prompt
+		
+	1. Alert: 
+		Only one option will be available i.e. OK to accept the terms and condition.
+		User doesn't have any another option.
+		Using alert we can show warning message.
+		syntax: alert("Show message");
+		Exection will be stopped until user accepts the condition.
+		
+	2. Confimr:
+		Will have two options. i.e OK and Cancel.
+		based on Ok and Cancel we can write our business logic.
+		
+		syntax:
+		confirm("Are you sure u want to continue? ");
+		
+	3. Prompt:
+		Will have two options with free text as input where user can enter the values.
+		And based on user values we can write business logic.
+		
+		syntax:
+		prompt("Plz enter your age");
+		
+	Data Types in JS:
+		data is used to represent the data. And data type is used to perform the operation on data.
+		
+		There are tow types of data types in the javascript.
+		Primitive data types
+		Non Primitive data types.
+		
+		Primitive Data Types:
+		Those data types which store the data as a direct value in the memory location is called as primitive data types.
+		Numbers
+		String
+		Boolean
+		Null 
+		Undefined
+		
+		
+		Non Primitive Data Types:
+		Those data types which store the data as an reference value in the memory location is called as non primitive data types. 
+		Object
+		
+		1. Number:
+			can have interger, float, double inside the number data types.
+			can perform operation like : typeOf, toString, NaN.
+			
+		2. Undefined and Null:
+			Undefined means variable is declared but value is not assigned.
+			Data type of undefined in undefined.
+			Null itself is having value. 
+			data type of null is Object.
+			
+			not defined: Variable is not defined or not assigned any value.
+			
+		4. Boolean:
+			
+		

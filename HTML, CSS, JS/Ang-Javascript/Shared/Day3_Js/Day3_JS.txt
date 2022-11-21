@@ -1,0 +1,43 @@
+Summary:
+
+Overall web appliction structure.
+Technologies
+Static VS Dynamic web application
+
+JS :
+
+
+Placement/ Syntax Of JS:
+1. Head section of HTML file
+2. Body section of HTML file.
+3. Head and Body section of HTML file.
+4. External JS file.
+
+JS comments:
+	Comment will give hint or idea to developer as well as used for documentation or also used to get extra info about the code.
+	single line comments
+	multi line comments.
+	
+Variables in JS: 
+	Variables are used to store the information.
+	Variables are also used to exchnage the information.
+	There are two types of variables. Local and Global variables.
+	In the JS there are below ways to create an variables.
+	direct variable, using let, var, const.
+	
+	Set to rules to create a variable:
+		1. Keywords can not be used as variable name.
+		2. Variables names can not start with numbers.
+		3. Can start with '_';
+		4. Variables are case sensitive.
+		
+Operators in JS:
+	Operators are used to perform the operations on operands.
+		1. Arthimatic:
+		2. Comparision
+		3. Logical 
+		4. Assignment 
+		5. Conditional 
+		6. Bitwise 
+		7. Special operators.
+	

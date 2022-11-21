@@ -1,0 +1,55 @@
+
+
+Control Statements:
+	Control statements are used to handle or control the execution of the program.
+
+	1. If:
+		if(expression){
+			.......block of code
+		}
+	2. Nested if:
+
+		if(expression){
+		....block of code...	
+			if(expression){
+			....block of code....
+			}
+		..... block of code...
+		}
+	3. if ...else:
+		if(expression){
+		.. block of code...
+		} else {
+		... block of code.....
+		}
+		
+	4. Nested if else:
+		if(expression){
+			... block of code ....
+		} else if(expression){
+		.... block of code ....
+		} else if(expression){
+		... block of code....
+		} else{
+		..... block of code ....
+		}
+		
+	5. for Loop: 
+		for (initilization, expression/ condition, increment or decrement){
+		... block of code...
+		}
+		
+	6. while(expression){
+		... block of code...
+		increment/ decrement
+		
+	}
+	
+	7. do.... while:
+		do{
+		.. block of code..
+		.. increment/ decrement
+		}
+		while(expression)
+		
+	8. switch

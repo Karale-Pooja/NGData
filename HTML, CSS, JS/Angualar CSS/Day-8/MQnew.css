@@ -1,0 +1,105 @@
+body {
+    background-color: rgb(76, 143, 76);
+}
+
+.section {
+    display: flex;
+    /* width: 100%; */
+    width: auto;
+}
+
+.main1 {
+    margin-top: 200px;
+    height: 400px;
+    /* width: 40%; */
+    width: auto;
+    margin-left: 80px;
+    margin-right: 60px;
+    color: white;
+    
+
+}
+.main2{
+    height: 300px;
+    margin-top: 80px;
+    margin-right: 80px;
+    
+    
+}
+
+.header {
+    background-color: rgb(67, 67, 117);
+    color: white;
+    height: 40px;
+    width: 500px;
+    width: auto;
+    text-align: center;
+    margin-top: 25px;
+    padding-top: 20px;
+   
+    
+
+}
+
+.form {
+    background-color: white;
+    height: 350px;
+    /* width: 100%; */
+    width: auto;
+
+    
+    
+}
+.form1{
+    display: flex;
+}
+.form1-1{
+margin-left: 20px;
+margin-top: 30px;
+margin-right: 40px;
+}
+
+.form-2{
+display: flex;
+}
+.form2-2{
+    margin-left: 20px;
+margin-top: 30px;
+margin-right: 40px;
+
+}
+button{
+    height:40px; 
+    width: 80%;
+    margin-top: 1cm;
+    margin-left:1.5cm;
+    text-align: center;
+    padding-top:1px;
+     background-color: rgb(63, 206, 94);
+     color: white;
+     border: white;
+}
+.main3{
+    margin-left: 1.5cm;
+    width: auto;
+    margin-top: 1cm;
+}
+@media(max-width:768px){
+    .section{
+        flex-direction: column;
+    }
+    .main1{
+        width: auto;
+    }
+    .main2{
+        flex-direction: column;
+        width: auto;
+    }
+    .form1 ,.form-2{
+        flex-direction: column;
+    }
+    .main3{
+        width: auto;
+    }
+
+}

@@ -1,0 +1,72 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<script>
+   //Alert
+function showAlert1(){
+console.log("Hellow this is an alert");
+alert("This will show Alert");
+console.log("This is my business logic")
+}
+
+//Confirm
+// example no 1
+function Confirm1(){
+      var a =  confirm("Your age is greater than 25?");
+     console.log(a);
+
+     console.log("if condition is true");
+            if(a == true){
+                console.log("Your are applicable");
+            }
+            else{
+                console.log("you can not enter");
+                // window.location= "";
+            }
+        }
+
+// example no 2
+         var b = confirm("Do you like this website?")
+         if(b==true){
+            alert('Thanks to like this website');
+
+         }else{
+            alert('It is ok')
+         }
+
+ //  prompt
+       function pro1(){
+        var c= prompt("Enter your age") ;
+         console.log(c);
+         if (c > 18){
+            console.log("you can enter age is above 18");
+    
+
+         }else{
+            console.log('you can not enter');
+         }
+       }
+
+
+</script>
+
+
+
+
+<body>
+       <h3>Dialog Boxes</h3>
+    <h4> Alert Box</h4>
+    <button onclick="showAlert1()">Show Alert</button>
+    
+    <h3> Confirm Box</h3>
+    <button onclick="Confirm1()"> show confirm</button>
+
+    <h3>Prompt</h3>
+    <button onclick="pro1()"> Prompt here</button>
+</body>
+</html>

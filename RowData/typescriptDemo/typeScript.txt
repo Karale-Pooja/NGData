@@ -1,0 +1,8 @@
+npm init
+npm i typescript
+
+npm install -g typescript {in CMD only one time}
+tsc --init [ts convert js, using tsc cmd]
+
+npm install -g ts-node {in CMD only one time}
+ts-node filename.ts

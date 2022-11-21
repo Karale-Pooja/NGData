@@ -1,6 +1,0 @@
-
-Javascript Objects:
-
-	this: 'this' keyword is going to refer to current object. 
-	
-	

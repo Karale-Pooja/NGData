@@ -1,0 +1,15 @@
+Day2:
+
+Css:
+Selectors : class id element (*)astrict
+
+pass two classes
+
+class and id 
+order
+
+
+Task for the day:
+1)create a page with 4 div and add element in to it like p,h3,span,
+ aplly css by Selectors
+ use color- bg-color border

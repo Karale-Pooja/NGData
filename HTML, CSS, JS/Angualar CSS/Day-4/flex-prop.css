@@ -1,0 +1,107 @@
+.flex-container {
+    display: flex;
+    flex-direction: column;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container > div {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .flex-container1 {
+    display: flex;
+    flex-direction: row;
+    background-color: DodgerBlue;
+  }
+  
+  .flex-container1 > div {
+    background-color: #f1f1f1;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  .RV{
+display: flex;
+flex-direction: column-reverse;
+  }
+  .RV div{
+    background-color: #8a0d56;
+    width: 150px;
+    margin: 10px;
+    text-align: center;
+    line-height: 75px;
+    font-size: 30px;
+  }
+  /* more property */
+  .p{
+    justify-content: right;
+    display: flex;
+  }
+  div.p1{
+    width: 300px;
+    background-color: rgb(231, 119, 15);
+    height: 30px;
+    font-size: 30px;
+  }
+  .q{
+    justify-content: Left;
+    display: flex;
+  }
+  div.q1{
+    width: 300px;
+    background-color: rgb(13, 70, 134);
+    height: 30px;
+    font-size: 30px;
+  }
+  .r{
+    justify-content: center;
+    display: flex;
+  }
+  div.r1{
+    width: 300px;
+    background-color: rgb(123, 219, 12);
+    height: 30px;
+    font-size: 30px;
+  }
+  div.overflow1{
+    overflow: scroll;
+    background-color: palevioletred;
+    width: 200px;
+    height: 110px;
+  }
+  div.ov1{
+    overflow: hidden;
+    background-color: rgb(115, 126, 189);
+    width: 200px;
+    height: 110px;
+  }
+  div.a1{
+    overflow: visible;
+    background-color: rgb(206, 72, 79);
+    width: 200px;
+    height: 110px;
+  }
+ 
+
+ 
+
+  
+
+ 
+
+ 
+
+  
+
+  
+ 
+
+  
+
+  

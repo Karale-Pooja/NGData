@@ -1,0 +1,11 @@
+media :
+rscreen 
+all
+print
+
+task:-
+Create 1 page 
+    add elements (image,  div, p)
+    mobile:450px;(bg-color:pink , div column way render , p should adjest(100% width),img will render on mobile )  
+     tab:789px;(bg-color:green , div column way render , p should adjest(100% width),img will not render  )   
+        

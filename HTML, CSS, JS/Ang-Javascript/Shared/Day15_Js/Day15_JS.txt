@@ -1,0 +1,41 @@
+
+Javascript Basics:
+
+	JS is single threaded synchronous scripting langugage means execution will be done by line by line and in sequential manner.
+	
+	Asynchronous: Ability to handle multiple events at a time. Exectuion is based on the program.
+	
+	JS need to convert from synchronous to asynchronous. For that JS is giving multiple approaches.
+	
+	1. Timer
+	2. Callback
+	3. Promise
+	4. async/ await
+	5. Observables
+	
+	Timer:
+	setTimeOut: It is going to execute after given time in milisecond. No need to give a call to function.
+	
+	setInterval: It is going to execute after each given time in milisecond. No need to give a call to function.
+				 To clear the the setInterval we need to call an clearInterval function.
+				 
+	SetImmediate: Used to execute a function right after the current event loop finishes.
+				 
+	Callback Function: Function which is passed as an argument to another function that inside is called as call back function.
+	
+	Anonymous Function: The function which doesn't have name is called as anynoumous function.
+	
+	
+	Local Scope VS Global Scope: 
+	
+	1. Global Scope: Variable can access through out the js file.
+	2. Functional Scope : Variable is having scope inside function only.
+	3. Block Scope : Variable is having scope inside block. block is nothing within two curly brackets.
+	
+	Let: Let is having block scope variable.
+		 reassignment is possible.
+		 reclaration is not possible.
+	
+	const: 
+		reassignment is not possible.
+		reclaration is not possible.
