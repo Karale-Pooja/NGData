@@ -6,7 +6,7 @@ import { rooms, RoomsList } from './rooms';
   templateUrl: './rooms.component.html',
   styleUrls: ['./rooms.component.scss']
 })
-export class RoomsComponent  {
+export class RoomsComponent implements OnInit {
   hotelName = 'HBM'
   numOfRooms = 10
   hiddenRoom = false
@@ -16,9 +16,17 @@ export class RoomsComponent  {
     bookedRooms: 5
   }
   roomList: RoomsList[] =[];
-  togle() {
+  toggle() {
     this.hiddenRoom = !this.hiddenRoom
   }
+
+  bookRoom:RoomsList[]=[]
+  selectRoom(data:RoomsList){
+    console.log(data)
+    this.bookRoom=[data];
+  }
+
+
   ngOnInit():void{
 this.roomList= [
   {
