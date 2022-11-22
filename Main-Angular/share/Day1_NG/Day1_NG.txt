@@ -1,0 +1,66 @@
+
+Angular:
+	Angular is framework based on javascript and typescript used to build a SPA(Single Page Application).
+	
+	Framework: 
+		Framework is a collection of libraries at a single point.
+		
+	Libraries: 
+		Libraries are collection of classes or code(funtions) at single point used to achieve some specific task.
+		
+Features of Angular :
+	Angular developed by Google Team.
+	Released first version in Oct 2010 i.e Angular 1 or Angular JS which completely based on Javascript.
+	Angular relased Angular 2 in 2016 which was based on TS Popularyly know as Angular.
+	Latest version of Angular is 14.
+	Angular team is going to release normally two versions in a year.
+	Angular 2/4/5/6/7/8/9/10/11/12/13/14.
+	Angular is used to create a dyanamic Single page web applications.
+	Compltely supports OOP's concepts as based on JS and TS.
+	Clean and loosely coupled.
+	code reusability.
+	seperate HTML, CSS, TS code files.
+	Cross Platform.
+	Open Source
+	Used for web as well as Mobile application.
+	support PWA.
+	Support Routing.
+	
+Installation Process Of Angular :
+	Angular CLI: 
+	CLI stands for Command Line Interface.
+	CLI is responsible for create angular project, run the angular project, debug angular project, modify or develope angular project.
+	We can create basic building blocks of angular.
+	
+	
+	Step 1:
+	Download and install node.js
+	node -v : to check version of node JS.
+	
+	Step 2: 
+	Install Angular CLI
+	Command: npm install -g @angular/cli
+	To check the version angular CLI run the command : ng version
+
+	Step 3: 
+	Create an Angular Project
+	Open command prompt and run the command: ng new demo
+	This will ask few questions:
+	1. Would like to add angular routing ? N and the enter
+	2. Which CSS u want to use ?  directly press enter.
+	
+	Step 4:
+	To run the angular application.
+	just go inside demo folder and run the command: npm start or ng serve
+	
+	Step 5:
+	Open the browser and run the url:
+	url: http://localhost:4200
+	
+	
+	Angular Version: 
+	latest version of Angular 14.0.6
+	
+	14: Major release/ Breaking chnage
+	0: Minor release/ new features added
+	6: patch release/ bug fix.

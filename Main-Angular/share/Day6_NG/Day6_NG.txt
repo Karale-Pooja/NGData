@@ -1,0 +1,28 @@
+Angular Directives:
+
+	3) Component Directive:
+		Component is the directive with the template. Component has its own template.
+		
+	
+	Difference Between component and directive:
+		Component is the special type of directive with the template. 
+		Component has its own template but other two directives doesn't have their own template.
+		Component directive is a collection class, template and decorator.
+		Structural and attribute directive are responsible for adding and removing as well as changing the behaviour of the DOM.
+		
+* Angular Forms:
+	Forms are used to collect the data from users.
+	In angular there are two types of forms: i.e Template Driven Form and Reactive Forms.
+	
+	Template Driven Forms:
+	Maximum things will be handled at html side.
+	We need to use ngModel to bind the data.
+	We can add the validations in template driven forms.
+	
+	To Submit the data of the user:
+	comp.html ===> comp.ts ===> angular service ===> backend ===> database. 
+	
+	To get the response after saving the form: 
+	database ====> backend ===> angular service ====> comp.ts ===> comp.html.
+	
+	

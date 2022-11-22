@@ -1,0 +1,58 @@
+Angular : Custom Directives:
+
+Task: Compare two dates in JS. calculate your age in temrs of days. 
+
+
+
+Custom Directives:
+	If we need to perfomrm some DOM related tasks throught the application then we prefer for custom directives.
+	We can create custom directives using command: ng g d directiveName
+	
+	
+	CLI Commands:
+	CLI : Command Line Interface.
+	npm install @angular/cli -g ===> Install angular/ cli trought out the machine.
+	ng new demo===> Create angular new project
+	npm start/ ng serve===> It starts the angular project on server.
+	ng g m moduleName ===> to create a feature moduleName
+	ng g c compName ====> to create a component
+	ng g p pipeName ===> to create custom pipe 
+	ng g d directiveName ===> to create custom directives
+	ng g s serviceName ===> create a service
+	ng build ===> create an minified JS. 
+	
+	
+Constructor: 
+	It is responsible for Object creation of the class.
+	It is also responsible for dependency injection.
+	It is not a part of angular component life cycle. 
+	It is not a mandotory to write constructor in component, if we dont write angular will execute by default.
+	
+Angular Life cycle:
+	Angular lifecycle consist of 8 lifecycle hooks or methods.
+	depend on situation every method will be called.
+	
+	
+	1) onChanges
+	2) onInit
+	3) doCheck
+	4) afterContentInit
+	5) afterContentCheck
+	6) afterViewInit
+	7) afterViewCheck
+	8) ngDestroy
+	
+	
+	1) onChanges(): This method will execute firth time when component came into picture/ came into DOM.
+					Next time this method will call when there will be change in any input property of the component.
+					
+	2) onInit() : It is reponsible for initilization/ subscribe  all the variables inside the DOM.
+					This method will be called after onChanges() method. 
+					
+					
+	
+	8) ngDestroy() : unsubscribe all the component initilized variables from the DOM and now DOM is ready to render next component.
+	
+	* onInit and ngDestroy methods will be called only once during lifecycle of the component 
+				but all other methods will be called multiple times based on situation.
+	

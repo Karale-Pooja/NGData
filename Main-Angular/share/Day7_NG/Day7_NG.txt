@@ -1,0 +1,44 @@
+Angular Revision:
+
+Reactive Forms:
+	step 1: create a component
+	step 2: import Reactive Fomrs Module.
+	
+	
+	FormBuilder: It is used to create FormGroup, FormControl, FormArray.
+	FormGroup: collection of form controls.
+	formControl: Single entity of the form.
+	
+	Validations :
+	Template Driven Form:
+	
+		frm.form.valid: will check the form is valid or not.
+		frm.submitted: check form is submitted or not
+		fname.invalid: check field is valid or not.
+		email.touched: check whether user has touched the email field or not.
+		fname.errors: Will return an object related to errors
+		email.errors.pattern: check mail pattern is correct or not
+		
+		
+	Reactive Fomrs:
+		f.fname.errors?.required: Fname is required or not.
+		
+		
+	* in the reactive forms to read the values of the form so for that we will write getter function which will return all the form controls.
+	So after that we can apply validations.
+	
+Template Driven Vs Reactive Fomrs:
+	Template Driven Fomrs:
+	1. Maximum things will be handled at html side.
+	2. Easy to code for simple use.
+	3. Validations are more complicated.
+	4. Complex for testing
+	5. Use ngModel
+	
+	
+	Reactive Form:
+	1. Maximum things will be handled at ts side.
+	2. Easy to code for complex use.
+	3. Validations are more simpleer.
+	4. Easy for testing
+	5. Use formBuilder, formControl, formGroup.

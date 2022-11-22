@@ -1,0 +1,48 @@
+
+Third Party Library Installation: 
+
+prime Ng:
+	go to : https://www.primefaces.org/primeng/setup
+	
+	npm install primeng --save
+	npm install primeicons --save
+	
+	go to angular.json under style part and add:
+	"styles": [
+              "src/styles.css",
+              "./node_modules/primeicons/primeicons.css",
+              "./node_modules/primeng/resources/themes/lara-light-blue/theme.css",
+              "./node_modules/primeng/resources/primeng.min.css"
+            ],
+	
+	restart your application.
+	
+	
+	
+Angular Deployment :
+
+Deployment consist of two parts:
+1. Transpilation: converting TS code in JS code.
+2. Compilation: Converting JS code into minified JS code. 
+
+Angular provides above both process by using single command: ng build 
+
+Angular Provides two types of compilation:
+Any application compiles inside the browswer during the runtime. 
+1. JIT (Just in time compilation):
+	If we change small part of code then entire code will be compiled once again.
+	JIT compiler was used till Angular 12 version.
+	
+
+2. AOT (Ahead of time compilation): 
+	If we change small part of code then only that part will be compiled not all other code.
+	From Angular 13 onwards angular provides AOT as by default compilation option.
+	Before angular 13, JIT compilation was by default and we need to pass the flag to compile our code with the help of AOT. 
+	i.e ng build --aot (not required from angular 13 and above).
+	Benefits:
+		1. Faster rendering/ minimum loading time.
+		2. Less API calls.
+		3. Minimizing the errors.
+		4. Better security.
+		
+Webpack: Converting our whole application small chunks is called as webpack.

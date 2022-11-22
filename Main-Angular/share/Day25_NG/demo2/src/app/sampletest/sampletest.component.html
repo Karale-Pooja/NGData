@@ -1,0 +1,49 @@
+<p>sampletest works!</p>
+
+
+<!-- <div *ngIf="checkFlag">
+    This is true Div
+</div>
+
+<div *ngIf="!checkFlag">
+    This is false Div
+</div> -->
+
+<div *ngIf="checkFlag else showngTemplate">
+    This is true Div
+</div>
+
+<ng-template #showngTemplate>
+    This is else block
+</ng-template>
+
+
+
+<!-- <div *ngIf="checkFlag else showngTemplate">
+    <table>
+        <tr>
+            <th>Data</th>
+        </tr>
+        <tr>
+            <td></td>
+        </tr>
+    </table>
+</div>
+
+<ng-template #showngTemplate>
+    This is No Data
+</ng-template> -->
+<!-- <br>
+
+<div *ngIf="subjectFlag">
+
+    <div  *ngFor="let sub of subject">
+        {{sub}}
+    </div>
+</div>
+
+<ng-container *ngIf="subjectFlag">
+    <div  *ngFor="let sub of subject">
+        {{sub}}
+    </div>
+</ng-container> -->
