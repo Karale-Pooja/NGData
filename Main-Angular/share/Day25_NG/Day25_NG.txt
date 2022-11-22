@@ -1,3 +1,0 @@
-Angular Backend Communication:
-
-Authorization using JWT: 
