@@ -1,0 +1,15 @@
+.con{
+   
+    display: flex;
+}
+.main{
+    height: 30px;
+    width: 900px;
+    background-color: red;
+}
+ .main .part2{
+    height: 10px;
+    width: 10px;
+    
+    
+}

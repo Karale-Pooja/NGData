@@ -1,0 +1,53 @@
+
+.c1{
+    background-color: white;
+    height: 80px;
+    border-bottom: 0.5px solid grey;
+    margin-bottom: 30px;
+    
+    
+}
+.c1 img{
+    width: 130px;
+    margin-left: 500px;
+    margin-top: 10px;
+    
+   
+
+}
+.title{
+    background-color: red;
+    height: 50px;
+    margin-top:20px ;
+    
+}
+.title p{
+    color: white;
+    font-size: 14px;
+    margin-left: 20px;
+    margin-top: 10px;
+}
+.title img{
+    height: 40px;
+    margin-top: 5px;
+    margin-left: 10px;
+}
+.k1{
+    height: 300px;
+    width: auto;
+}
+.image1{
+    padding-top: 10px;
+    margin-left: 0px;
+}
+.text1{
+    font-family: 'Roboto',sans-serif;
+    font-weight: 300;
+}
+.text1 span{
+    
+        font-family: 'Roboto',sans-serif;
+        font-weight: 300;
+        top: 95px;
+   
+    }

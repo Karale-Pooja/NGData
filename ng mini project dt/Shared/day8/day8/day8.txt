@@ -1,0 +1,27 @@
+Iframe
+
+
+html forms
+forms method- post get
+
+input type
+    text
+        placeholder
+    checkbox
+    radio button
+    button
+    submit
+
+number
+password
+select
+    options
+email
+date
+file
+textarea
+color
+
+
+
+
