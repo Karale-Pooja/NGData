@@ -1,0 +1,15 @@
+Intercomponent communication:
+
+Process of sending data from one component to another component is called as intercomponent comm.
+There are two chances of component communication.
+	1. If component are in parent and child relationship.
+	2. If component are not in parent and child i.e. irrelated component.
+	
+	* parent and child communication:
+	1. @Input: 
+		It is a decorator used to send the data from parent to child component.
+		It uses attribute or property binding.
+		
+	2. @Output: 
+		It is a decorator used to send the data from child to parent component.
+		It uses event binding with event emmitter.

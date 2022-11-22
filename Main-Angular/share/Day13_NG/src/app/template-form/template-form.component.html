@@ -1,0 +1,147 @@
+<h2>Template Driven Forms</h2>
+
+<!-- <form name="myForm" #frm = "ngForm" (ngSubmit)="onSubmitForm(frm)">
+    <div class="form-group">
+        <label for="firstName">First Name:</label>  
+        <input type="text" name="fname" class="form-control" #fname ="ngModel"
+        [(ngModel)]="fn"> 
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name:</label>  
+        <input type="text" name="lname" class="form-control" #lname="ngModel" ngModel> 
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:</label>  
+        <input type="email" name="email" class="form-control" #email="ngModel" ngModel> 
+    </div>
+
+    <div class="form-group">
+        <label for="course">Course:</label>  
+        <select name="course" class="form-control" #course="ngModel" ngModel>
+            <option *ngFor="let course of courses">{{course}}</option>
+        </select> 
+    </div>
+
+    <div class="form-group">
+        <label for="gender">Gender:</label>  &nbsp;&nbsp;
+        <input type="radio" name="gender" #gender="ngModel" ngModel value="male">&nbsp;
+        <label for="male">Male</label>  &nbsp;&nbsp;
+        <input type="radio" name="gender" #gender="ngModel" ngModel value="female">&nbsp;
+        <label for="female">Female</label> 
+    </div>
+
+    <div class="form-group">
+        <label for="pass">Password:</label>  
+        <input type="password" name="pass" class="form-control" #pass="ngModel" ngModel> 
+    </div>
+
+    <div class="form-group">
+        <label for="cpass">Confirm Password:</label>  
+        <input type="password" name="cpass" class="form-control" #cpass="ngModel" ngModel> 
+    </div> <br>
+
+    <div class="form-group">
+        <button type= "submit" class="btn btn-info">Submit</button>
+    </div>
+
+</form> -->
+
+<form name="myForm" #frm = "ngForm" (ngSubmit)="frm.form.valid && onSubmitForm(frm)">
+    <div class="form-group">
+        <label for="firstName">First Name: <span style="color: red;">*</span></label>  
+        <input type="text" name="fname" class="form-control" #fname ="ngModel"
+        ngModel 
+        
+        required [ngClass] ="{'is-invalid':frm.submitted && fname.invalid}">
+
+        <div *ngIf="frm.submitted && fname.invalid" class="invalid-feedback">
+            First Name is Required
+        </div> 
+    </div>
+
+    <div class="form-group">
+        <label for="lastName">Last Name:<span style="color: red;">*</span></label>  
+        <input type="text" name="lname" class="form-control" #lname="ngModel" ngModel
+        
+        required [ngClass] ="{'is-invalid':frm.submitted && lname.invalid}" >
+
+        <div *ngIf="frm.submitted && lname.invalid" class="invalid-feedback">
+            Last Name is Required
+        </div>  
+    </div>
+
+    <div class="form-group">
+        <label for="email">Email:<span style="color: red;">*</span></label>  
+        <input type="email" name="email" class="form-control" #email="ngModel" ngModel
+        
+        required [ngClass] ="{'is-invalid':frm.submitted && email.invalid}"
+         pattern="^\w+([\.-]?\w+)*@\w+([\.-]?\w+)*(\.\w{2,3})+$"> 
+         
+        <div *ngIf="email.touched" class="invalid-feedback">
+            <p *ngIf="email.errors?.['required']"> Email is Required </p>
+            <p *ngIf="email.errors?.['pattern']"> Please Enter Valid Email </p>
+        </div> 
+    </div>
+
+    <div class="form-group">
+        <label for="course">Course:</label>  
+        <select name="course" class="form-control" #course="ngModel" ngModel>
+            <option *ngFor="let course of courses">{{course}}</option>
+        </select> 
+    </div>
+
+    <div class="form-group">
+        <label for="gender">Gender:</label>  &nbsp;&nbsp;
+        <input type="radio" name="gender" #gender="ngModel" ngModel value="male">&nbsp;
+        <label for="male">Male</label>  &nbsp;&nbsp;
+        <input type="radio" name="gender" #gender="ngModel" ngModel value="female">&nbsp;
+        <label for="female">Female</label> 
+    </div>
+
+    <div class="form-group">
+        <label for="pass">Password:</label>  
+        <input type="password" name="pass" class="form-control" #pass="ngModel" ngModel> 
+    </div>
+
+    <div class="form-group">
+        <label for="cpass">Confirm Password:</label>  
+        <input type="password" name="cpass" class="form-control" #cpass="ngModel" ngModel> 
+    </div> <br>
+
+    <div class="form-group">
+        <button type= "submit" class="btn btn-info">Submit</button>
+    </div>
+
+</form>
+
+
+
+
+
+
+<div class="data" *ngIf="showData">
+    <table class="table table-primary">
+        <tr>
+            <th>First Name</th>
+            <th>Last Name</th>
+            <th>Email</th>
+            <th>Course</th>
+            <th>Gender</th>
+            <th>Password</th>
+        </tr>
+        <tr *ngFor="let dt of data">
+            <td>{{dt.fname}}</td>
+            <td>{{dt.lname}}</td>
+            <td>{{dt.email}}</td>
+            <td>{{dt.course}}</td>
+            <td>{{dt.gender}}</td>
+            <td>{{dt.pass}}</td>
+            <td>
+                <button class="btn btn-danger" (click)="onDelItem(dt)">Delete</button>
+            </td>
+        </tr>
+    </table>
+</div>
+

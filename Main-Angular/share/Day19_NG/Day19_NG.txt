@@ -1,0 +1,32 @@
+Angular Lazy Loading:
+www.demowebsite.com 
+complete website data: 5 mb
+The process of loading complete application altogher is called as Eager Loading.
+it will take maximum time to load the application.
+
+The process of breaking complete application modular wise and loading module by module is called as lazy loading.
+It will take less time to load the application.
+if there is any chnage in module only that module will be rebuild and reload at UI. So here also we are going to decrease of load time.
+And because of above methods lazy loading is going to be faster than eager loading.
+home: 200kb
+login : 100kb
+loan : 300kb 
+other: 1.1 mb
+
+
+Intercomopnent Communication ways in Angular:
+
+1. with the help of @input and @output if components are parent and child.
+
+2. @viewchild if components are parent and child.
+
+3. Using service with the help of special operators.
+
+4. Using Routing.
+
+5. Using local storage and session storage.
+
+
+Third Party Installation:
+
+

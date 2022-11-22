@@ -1,0 +1,43 @@
+
+Angular Unit Test Cases:
+
+There are three types of tests:
+1. Unit Tests
+2. Integration tests
+3. End-to-end test 
+
+Unit Testing in angular :
+
+It is a process of exminining or testing the specific part of application to make sure it is working fine or not.
+
+Benefits:
+
+	1. Chances of less error after deployment of the code.
+	2. Code refactoring for testing purpose.
+	3. If we are adding any new feature to the application then will easily understand our application is breaking or not at the level of development.
+	
+		To write an angular test cases we require two major things :
+		
+		1. Jasmine:
+			It is an open sourse testing framework/ library.
+			Using the Jasmine we can write the test cases. 
+			Jasmine provides few important methods: 
+			it(): Declare a perticular test.
+			describe(): It is suite for test the it().
+			expect(): It is used to expect or compare the result value.
+			
+		2. Karma: 
+		It is runnner used to run/ execute unit test cases.
+		It will provide result as well as code coverage in terms of %.
+		
+		
+		To test the application we have command: ng test 
+		To see the code coverage we have the command: ng test --code-coverage 
+		
+		
+		
+		
+		
+		
+		
+		

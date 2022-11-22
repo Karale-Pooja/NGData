@@ -1,0 +1,33 @@
+Angular Folder Structure:
+
+1. Node Modules:
+	node_modules is a collection of all the libraries used to run the angular application. 
+	Those libraries are availble in node_modules so that no depedency of internet while running the angular application.
+	
+2. Package.json:
+	It is a key file of angular project.
+	All the data of package.json  will be stored in the format of object/JSON.
+	It consist of depedencies.
+	It also basic consist of basic angular project information, basic commands i.e. to start the angular application,
+	to test angular application, to test the angular application.
+
+3. angular.json:
+	angular.json is an entry point of my angular project.
+	it consist of some basic info related to angular project.
+	
+4. main.ts:
+	This file is responsible for bootstraping process/ to start the angular application.
+	It is a second entry point of angular application.
+	It contains root module.
+	Also consistof envoirnment of the project.
+	
+5. index.hmtl:
+	responsible for single page application(SPA).
+	contains selector of a component.
+	
+HTML5 Web Component:
+	HTML5 has introduced web component.
+	Inside web component we can write our code and that can be used throught the application.
+	Angular component are like html5 web components with some additional features.
+	Every component has a selectors.
+	

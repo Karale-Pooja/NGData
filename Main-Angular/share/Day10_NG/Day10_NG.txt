@@ -1,0 +1,14 @@
+
+Angular Services:
+	Services are the basic building block of the angular.
+	It is used to seperate UI logic from business logic. i.e used to seperate UI from backend.
+	It is also used for inter component communication.
+	Service is class file with methods and properties.
+	Service is used for backend communication as well as code reusability.
+	
+Dependency Injection:
+	It is an pattern of class coding in which class recieves its dependencies extranally rather than creating itself.
+	
+	
+	comp.ts ===> service ===> http client ===> backend ===> data base
+	data base ===> backend ===> http client (in temrs of observables) ===> service ====> component(Subscription)

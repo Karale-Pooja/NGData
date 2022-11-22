@@ -1,0 +1,37 @@
+Angular Revision:
+
+* Data Binding:
+	Data binding is used to bind the static as well dynamic content.
+	Asways used to communication from html file to ts file as well as ts to html file.
+	
+	a) Interpolation/ String Interpolation/:
+		Used to bind the data from comp.ts to comp.html. 
+		It is also called as one way data binding.
+		syntax: {{propertyName}}
+		
+	b) Property Binding or Attribute Binding:
+		This is an one way communication i.e. from ts to html.
+		It binds the data to propert or attribute of html element.
+		
+		[attrName] = "propertyName"
+
+	c) Event Binding: 
+		Event one way communication. It is used to communicate from html to ts file.
+		It is based on JS events.
+		
+		(click)="myEvent()"
+		
+	d) Two Way data binding:
+		Used to communicate from ts to html as well as html to ts.
+		It is a combination of propert binding and event binding.
+		
+
+Angular Bootstrap Installation Process:
+	Step 1: npm install bootstrap --save
+	
+	Step 2: Import css inside style.css file.
+	@import "~bootstrap/dist/css/bootstrap.css";
+	
+	
+Bootstrapping Process:
+	angular.json => main.ts => app.module.ts => app.com.ts => index.html

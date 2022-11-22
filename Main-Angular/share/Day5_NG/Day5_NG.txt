@@ -1,0 +1,19 @@
+
+Angular Directives:
+	
+	DOM: Document Object Model and it consist of structure of html elements as well as javascript events.
+	
+	Directives are responsible for adding and removing elements from the DOM as well as chnaging the behaviour of the DOM.
+	
+	There are three types of directives.
+	1. Component directives.
+	2. Structural Directives.
+	3. Attribute Directives.
+	
+		1. Structural Directives:
+			Structural Directives are responsible for adding and removing elements from the DOM.
+			*ngIf, *ngFor, *ngSwitch
+			
+		2. Attribute Directives:
+			Attribute directives are responsible for chnaging the behaviour of the DOM.
+			ngStyle and ngClass 

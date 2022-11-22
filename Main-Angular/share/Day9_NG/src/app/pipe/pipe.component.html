@@ -1,0 +1,75 @@
+<h2>Angular Pipes</h2>
+
+    <h3>Original Text: {{sampleText}}</h3>
+
+    <h3>Uppercase Text: {{sampleText | uppercase}}</h3>
+
+    <h3>Lowercase Text: {{sampleText | lowercase}}</h3>
+
+    <h3>Title Case Text: {{sampleText | titlecase}}</h3>
+
+<!-- <h3>{{courses | titlecase}}</h3> -->
+
+<br>
+
+<h3>Date Pipe</h3>
+
+    <h3>Original Date: {{date1}}</h3>
+
+    <h3>Standard format: {{date1 | date}}</h3>
+
+    <h3>Short date: {{date1 |date:'short' }}</h3>
+
+    <h3>Medium date: {{date1 |date:'medium' }}</h3>
+
+    <h3>dd/mm/yyyy date: {{date1 |date:'dd/MM/yyyy' }}</h3>
+
+<br>
+
+<h3>JSON Pipe:</h3>
+
+    <p>JSON Pipe: {{data |json}}</p>
+<br>
+
+<h3>Slice Pipe</h3>
+    <h4>Original Text: {{sampleText}}</h4>
+    <h4>Slice Text: {{sampleText | slice:2}}</h4>
+    <h4>Slice Text: {{sampleText | slice:0:7}}</h4>
+
+    <h4>Slice Text: {{courses | slice:0:3}}</h4>
+
+<h3>Currency Pipe:</h3>
+
+    <h4>Original Text: {{salary}}</h4>
+    <h4>Original Text: {{salary | currency}}</h4>
+
+    <h4>Original Text: {{salary | currency:'INR'}}</h4>
+    <h4>Original Text: {{salary | currency:'USD'}}</h4>
+    <h4>Original Text: {{salary | currency:'AED'}}</h4>
+
+
+<h3>Multiple Pipes:</h3>
+
+<p>Multiple Pipes: {{sampleText | slice :0:5 | uppercase}}</p>
+
+<!-- <p>Multiple Pipes: {{sampleText | slice :0:5 | date:'short'}}</p> -->
+
+<h3>Custom Pipe</h3>
+
+<p>Original Text: {{sampleText}}</p>
+
+<!-- <p>Original Text: {{salary | cust: 100:25:45 }}</p> -->
+
+
+<p>Original Text: {{sampleText | cust }}</p>
+
+
+<p>Custom Pipe 2 Text: {{sampleText | cust2:2 }}</p>
+
+
+
+    
+
+
+
+

@@ -1,0 +1,30 @@
+import { async, ComponentFixture, TestBed } from '@angular/core/testing';
+
+import { SampletestComponent } from './sampletest.component';
+
+describe('SampletestComponent', () => {
+  let component: SampletestComponent;
+  let fixture: ComponentFixture<SampletestComponent>;
+
+  beforeEach(async () => {
+    await TestBed.configureTestingModule({
+      declarations: [ SampletestComponent ]
+    })
+    .compileComponents();
+
+    fixture = TestBed.createComponent(SampletestComponent);
+    component = fixture.componentInstance;
+    fixture.detectChanges();
+  });
+
+  it('should create', () => {
+    expect(component).toBeTruthy();
+  });
+
+  it('Should have demoString valriable and value should be `Hello Angular testing`', async(() => {
+    fixture = TestBed.createComponent(SampletestComponent);
+    component = fixture.debugElement.componentInstance;
+    expect(component.demoString).toEqual('Hello Angular Testing');
+  }));
+
+});

@@ -1,0 +1,16 @@
+
+Inter Component Comm:
+
+3) @ViewChild():
+	It is used to send the data from child to parent.
+	It is same as @Output : in @Output only one variable will be passed from child to parent but in case of @ViewChild we will get 
+							complete control of child component into parent component so that we can access any properyt or method.
+							
+	important is that we can fetch the data of child inside parent in ngAfterViewInit method only.
+	
+	
+ * Intercomponent communication of Sibling or non related Component(i.e. with the help of service):
+ 
+ 
+	
+	

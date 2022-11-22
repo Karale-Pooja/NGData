@@ -1,0 +1,32 @@
+
+
+HTTP  Response Code:
+
+200: Ok got communication and got the data.
+
+204: No content available. 
+
+400: Bad request means req api and backend api are not matching with each other.
+
+401: Unauthorized access of the API.
+
+404: API not found
+
+500: Internal Server Error. Means connection issue bcoz of internet and all.
+
+403: Forbiddent means communication us happening but due to unauthorization not able to serve the request.
+
+
+Network Tab all options like 
+	headers: Http headers delatils like api type get, post, status code.
+	payload: request body/ data (from angular side)
+	preview: response body in proper json format( From backend)
+	Response: response body
+
+Application: Storage options.
+
+Source:  Can apply debugger to see executoion line by line.
+
+Element: All html, css bs stuffs.
+
+Console: normal console to see the executoion or data.
