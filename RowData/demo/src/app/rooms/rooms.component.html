@@ -5,10 +5,15 @@
     <div [innerText]="numOfRooms"></div>
 </div>
 
-<button (click)="togle()">togle</button>
-<div *ngIf="room.availableRooms >0">Rooms List</div>
+<button (click)="toggle()">toggle</button>
+<div>Available room : {{room?.availableRooms ?? 'Not Available'}} </div>
+<div *ngIf="room.availableRooms >0">Rooms List
 
+    <demo-room-list [rooms]="roomList" (selectedRoom)="selectRoom($event)" ></demo-room-list>
+</div>
+<div *ngIf="bookRoom">
+{{bookRoom | json}}
+</div>
 <!-- <div>{{roomList | json}} </div> -->
 
 
-<demo-room-list [rooms]="roomList"></demo-room-list>
